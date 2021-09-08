@@ -19,6 +19,7 @@
   "homepage": "https://github.com/verypei/excel_apps#readme",
   "dependencies": {
     "formidable": "^1.2.2",
+    "jspdf": "^2.3.1",
     "read-excel-file": "^5.2.9"
   }
 }
