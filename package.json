@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/verypei/excel_apps#readme",
   "dependencies": {
+    "formidable": "^1.2.2",
     "read-excel-file": "^5.2.9"
   }
 }
