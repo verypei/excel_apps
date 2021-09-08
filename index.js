@@ -1,11 +1,3 @@
-const { default: jsPDF } = require("jspdf");
-
-function pdf(){
-    console.log("tes masuk pdf");
-    const doc = new jsPDF();
-    doc.text("Hello world!", 10, 10);
-    doc.save("a4.pdf");
-}
 let input = document.getElementById('myFile');
 input.addEventListener('change',()=>{
     readXlsxFile(input.files[0])
